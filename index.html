@@ -33,9 +33,9 @@
                     <!-- Thumbnails Container -->
                     <div class="thumbs">
                         <!-- Previous Button -->
-                        <div class="prev"></div>
+                        <div class="prev" @click="prevImage"></div>
                         <!-- Next Button -->
-                        <div class="next"></div>
+                        <div class="next" @click="nextImage"></div>
                         <!-- Thumbnails -->
                         <div v-for="(element, index) in slides" class="thumb" :class="index === activeImage ? 'active' : ''">
                             <img :src="slides[index].image">
