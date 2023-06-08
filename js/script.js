@@ -37,3 +37,6 @@ console.log(slides);
 
 // RICHIAMO LA FUNZIONE CREATE_APP DA VUE.JS
 const {createApp} = Vue;
+
+// FUNZIONE CREATE_APP
+createApp({}).mount('#app'); // COLLEGO LA FUNZIONE AL CONTAINER HTML
