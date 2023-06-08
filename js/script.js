@@ -31,3 +31,9 @@ const slides = [
 ];
 
 console.log(slides);
+
+/**************************************************************************************************/
+"use strict";
+
+// RICHIAMO LA FUNZIONE CREATE_APP DA VUE.JS
+const {createApp} = Vue;
