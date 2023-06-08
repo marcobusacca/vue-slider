@@ -17,6 +17,7 @@
         width: 700px;
         height: 300px;
         position: relative;
+        cursor: pointer;
     }
 
     .item img{

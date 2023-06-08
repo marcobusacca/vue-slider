@@ -17,7 +17,7 @@
             <!-- Flex Container -->
             <div class="container">
                 <!-- Slider Container -->
-                <div class="slider-wrapper" tabindex="0">
+                <div class="slider-wrapper" tabindex="0" @mouseover="stopAutoplay" @mouseleave="startAutoplay">
                     <!-- Slider Item -->
                     <div class="item">
                         <!-- Slider Image -->
