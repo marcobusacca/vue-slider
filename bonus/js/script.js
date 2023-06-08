@@ -43,6 +43,13 @@ createApp({
             activeImage : 0
         }
     },
+    // FUNZIONE CREATED
+    created() {
+        // RICHIAMO LA FUNZIONE NEXT_IMAGE (SCORRE OGNI IMMAGINE VERSO AVANTI) OGNI 3 SECONDI
+        setInterval(() => {
+            this.nextImage();
+        }, 3000);
+    },
     // FUNZIONE METHODS
     methods: {
         prevImage(){
