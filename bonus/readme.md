@@ -53,5 +53,5 @@ SOLUZIONE BONUS 1:
 
 - Usare la direttiva v-on:click sull'Image delle Thumbnail per richiamare la Funzione "clickImage";
 
-- Definire la funzione "clickImage" dentro Methods;
+- Definire la funzione "clickImage" dentro Methods.
 
