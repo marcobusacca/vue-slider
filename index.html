@@ -37,6 +37,9 @@
                         <!-- Next Button -->
                         <div class="next"></div>
                         <!-- Thumbnails -->
+                        <div v-for="(element, index) in slides" class="thumb" :class="index === activeImage ? 'active' : ''">
+                            <img :src="slides[index].image">
+                        </div>
                     </div>
                 </div>
             </div>
