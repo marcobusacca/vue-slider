@@ -64,3 +64,12 @@ SOLUZIONE BONUS 2:
 
 - Dentro l'Arrow Function Anonima richiamare la Funzione nextImage (ogni 3 secondi).
 
+
+SOLUZIONE BONUS 3:
+
+- Dichiarare nel Data una Variabile che Conterrà la Timing Function setInterval();
+
+- Usare la direttiva v-on:click nello Slider per richiamare la Funzione "stopAutoplay";
+
+- Creare la Funzione "stopAutoplay" dentro Methods.
+
