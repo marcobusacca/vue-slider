@@ -80,5 +80,28 @@ createApp({
     },
     // FUNZIONE METHODS
     methods: {
+        prevImage(){
+            // DECREMENTO IL CONTATORE DELL'INDICE
+            this.activeImage--;
+
+            // CONTROLLO CHE L'INDICE NON SIA ARRIVATO AL PRIMO ELEMENTO
+            if(this.activeImage < 0){
+
+                // RIPORTO L'INDICE ALL'ULTIMO ELEMENTO
+                this.activeImage = this.slides.length - 1;
+            }
+        },
+
+        nextImage(){
+            // INCREMENTO IL CONTATORE DELL'INDICE
+            this.activeImage++;
+
+            // CONTROLLO CHE L'INDICE NON SIA ARRIVATO ALL'ULTIMO ELEMENTO
+            if (this.activeImage > this.slides.length - 1){
+
+                // RIPORTO L'INDICE AL PRIMO ELEMENTO
+                this.activeImage = 0;
+            }
+        }
     }
 }).mount('#app'); // COLLEGO LA FUNZIONE AL CONTAINER HTML
