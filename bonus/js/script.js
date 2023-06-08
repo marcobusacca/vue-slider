@@ -67,6 +67,11 @@ createApp({
                 // RIPORTO L'INDICE AL PRIMO ELEMENTO
                 this.activeImage = 0;
             }
+        },
+
+        clickImage(index){
+            // ASSEGNO L'INDICE DELL'IMMAGINE CLICCATA ALLA VARIABILE ACTIVE_IMAGE
+            this.activeImage = index;
         }
     }
 }).mount('#app'); // COLLEGO LA FUNZIONE AL CONTAINER HTML
