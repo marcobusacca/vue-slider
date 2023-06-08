@@ -69,7 +69,13 @@ SOLUZIONE BONUS 3:
 
 - Dichiarare nel Data una Variabile che Conterrà la Timing Function setInterval();
 
-- Usare la direttiva v-on:click nello Slider per richiamare la Funzione "stopAutoplay";
 
-- Creare la Funzione "stopAutoplay" dentro Methods.
+- Usare la direttiva v-on:mouseover nello Slider per richiamare la Funzione "stopAutoplay";
+
+- Creare la Funzione "stopAutoplay" dentro Methods;
+
+
+- Usare la direttiva v-on:mouseleave nello Slider per richiamare la Funzione "startAutoplay";
+
+- Creare la Funzione "startAutoplay" dentro Methods.
 
