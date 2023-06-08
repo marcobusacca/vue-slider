@@ -39,4 +39,13 @@ console.log(slides);
 const {createApp} = Vue;
 
 // FUNZIONE CREATE_APP
-createApp({}).mount('#app'); // COLLEGO LA FUNZIONE AL CONTAINER HTML
+createApp({
+    // FUNZIONE DATA CON OGGETTO RETURN
+    data(){
+        return{
+        }
+    },
+    // FUNZIONE METHODS
+    methods: {
+    }
+}).mount('#app'); // COLLEGO LA FUNZIONE AL CONTAINER HTML
