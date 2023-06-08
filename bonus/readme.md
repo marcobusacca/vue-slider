@@ -55,3 +55,12 @@ SOLUZIONE BONUS 1:
 
 - Definire la funzione "clickImage" dentro Methods.
 
+
+SOLUZIONE BONUS 2:
+
+- Creare la Funzione Created();
+
+- Dentro la Funzione Created() usare la Timing Function setInterval(), con l'Arrow Function Anonima;
+
+- Dentro l'Arrow Function Anonima richiamare la Funzione nextImage (ogni 3 secondi).
+
