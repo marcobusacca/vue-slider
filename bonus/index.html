@@ -21,7 +21,7 @@
                     <!-- Slider Item -->
                     <div class="item">
                         <!-- Slider Image -->
-                        <img :src="slides[activeImage].image" alt="image"/>
+                        <img :src="slides[activeImage].image" :alt="slides[activeImage].title"/>
                         <!-- Slider Text -->
                         <div class="text">
                             <!-- Slider Title -->
@@ -38,7 +38,7 @@
                         <div class="next" @click="nextImage"></div>
                         <!-- Thumbnails -->
                         <div v-for="(element, index) in slides" class="thumb" :class="index === activeImage ? 'active' : ''">
-                            <img :src="slides[index].image" @click="clickImage(index)">
+                            <img :src="element.image" @click="clickImage(index)">
                         </div>
                     </div>
                 </div>
